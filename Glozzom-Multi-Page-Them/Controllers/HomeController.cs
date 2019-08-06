@@ -31,6 +31,15 @@ namespace Glozzom_Multi_Page_Them.Controllers
             return View();
         }
 
+        public IActionResult Blog()
+        {
+            return View();
+        }
+        public IActionResult Contact()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
